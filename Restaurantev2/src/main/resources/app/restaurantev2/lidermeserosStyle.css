@@ -1,29 +1,29 @@
 .root {
-    -fx-font-family: "Playfair Display", "Georgia", serif;
-    -fx-font-size: 15px;
-    -fx-background-color: rgb(25, 25, 25); /* Fondo principal claro para contrastar con el menú */
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #0A0A0A;
 }
 
 .menuscroller {
-    -fx-background-color: #191919;
-    -fx-background-radius: 0 24 24 0;
-    -fx-border-radius: 0 20 20 0;
-    -fx-border-width: 0 6px 0 0;
-    -fx-border-color: #ee6b14;
-    -fx-padding: 18 20 18 20;
-    -fx-effect: dropshadow(gaussian, #00000077, 12, 0.16, 0, 3);
+    -fx-background-color: #1E1E1E;
+    -fx-background-radius: 0 16 16 0;
+    -fx-border-radius: 0 16 16 0;
+    -fx-border-width: 0 2px 0 0;
+    -fx-border-color: #2563EB;
+    -fx-padding: 20 20 20 20;
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.3), 12, 0.16, 0, 3);
 }
 
 .imagenlogo {
-    -fx-effect: dropshadow(gaussian, #A67C52, 4, 0.12, 0, 2);
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.4), 4, 0.12, 0, 2);
     -fx-alignment: center-left;
 }
 
 .TITULOMENU {
-    -fx-font-family: Ebrima;
-    -fx-font-size: 23px;
-    -fx-font-weight: REGULAR;
-    -fx-text-fill: #fffbe8;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-font-size: 22px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #FFFFFF;
     -fx-padding: 8 0 8 0;
     -fx-alignment: center;
 }
@@ -33,102 +33,111 @@
 }
 
 .button {
-    -fx-background-color: #b66e28;
-    -fx-text-fill: #fff5e1;
-    -fx-font-size: 20px;
-    -fx-font-family: Ebrima;
-    -fx-font-weight: bold;
-    -fx-background-radius: 12;
-    -fx-border-radius: 12;
-    -fx-border-color: #eaba6b;
-    -fx-border-width: 1.3px;
+    -fx-background-color: #2563EB;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.3), 6, 0.3, 0, 2);
     -fx-cursor: hand;
+    -fx-padding: 12 0 12 0;
+    -fx-letter-spacing: 0.3px;
 }
 .button:hover {
-    -fx-background-color: #8C6A44;
-    -fx-effect: dropshadow(gaussian, #EAC28299, 10, 0.15, 0, 2);
-    -fx-text-fill: #fff5e1;
+    -fx-background-color: #1D4ED8;
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.5), 10, 0.4, 0, 3);
+    -fx-text-fill: #FFFFFF;
 }
 #btnSalir {
-    -fx-background-color: #D85B38;
-    -fx-border-color: #D85B38;
-    -fx-text-fill: #fff5e1;
-    -fx-background-radius: 12;
+    -fx-background-color: #EF4444;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 8;
 }
 #btnSalir:hover {
-    -fx-background-color: #a93b1c;
-    -fx-border-color: #a93b1c;
+    -fx-background-color: #DC2626;
+    -fx-border-color: transparent;
 }
 
-/* Fondo pantalla principal claro */
+/* Fondo pantalla principal */
 .inicioMesero {
-    -fx-background-color: rgba(37, 36, 36, 0);
+    -fx-background-color: transparent;
 }
 
 /* Paneles */
 .cajapanel {
-    -fx-background-color: #252424;
-    -fx-background-radius: 15;
-    -fx-border-radius: 15;
+    -fx-background-color: #252525;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-width: 1px;
+    -fx-border-color: #3B82F6;
     -fx-padding: 22 22 22 22;
-    -fx-effect: dropshadow(gaussian, rgba(152, 150, 150, 0.84), 15, 0.15, 0, 2);
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.2), 15, 0.15, 0, 2);
 }
 
 .panelmesero {
-    -fx-background-radius: 15;
-    -fx-border-radius: 15;
-    -fx-background-color: rgba(0, 0, 0, 0.96);
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: #1E1E1E;
+    -fx-border-width: 1px;
+    -fx-border-color: #2563EB;
     -fx-padding: 22 22 22 22;
 }
 
 .TITULOPANEL, .lblTitulo {
-    -fx-font-family: Ebrima;
-    -fx-font-size: 36px;
-    -fx-font-weight: REGULAR;
-    -fx-text-fill: #ffffff;
-    -fx-padding: 0 0 12 0;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-font-size: 32px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 0 0 16 0;
     -fx-background-color: transparent;
-    -fx-border-width: 0 0 5px 0;
-    -fx-border-color: #ff8700;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #2563EB;
     -fx-alignment: center;
 }
 
 .table-view {
-    -fx-background-color: #f6f6f6;
-    -fx-border-radius: 12;
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 8;
     -fx-padding: 7 0 7 0;
-    -fx-font-size: 18px;
-    -fx-text-fill: #191919;
+    -fx-font-size: 14px;
+    -fx-text-fill: #0A0A0A;
 }
 .table-column {
-    -fx-font-size: 17px;
-    -fx-font-family: "Georgia", serif;
-    -fx-text-fill: #191919;
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-text-fill: #0A0A0A;
 }
 
 /* Campos de texto normales */
 .combo-box, .date-picker {
-    -fx-background-color: #b6b6b7;
-    -fx-border-color: #A67C52;
-    -fx-border-width: 1px;
-    -fx-border-radius: 10;
-    -fx-background-radius: 10;
-    -fx-text-fill: rgba(0, 0, 0, 0.96);
-    -fx-font-size: 15px;
-    -fx-font-family: "Georgia", serif;
-    -fx-padding: 6 10 6 10;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #3B82F6;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-text-fill: #0A0A0A;
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-padding: 8 12 8 12;
 }
 
-/* Motivo y total: fondo blanco, letras negras, sin animación */
+/* Motivo y total: fondo blanco, letras negras */
 .motivo-area, .total-area {
-    -fx-border-color: #ffffff;
-    -fx-border-width: 4px;
-    -fx-border-radius: 10;
-    -fx-background-radius: 10;
-    -fx-text-fill: #000000;
-    -fx-font-size: 18px;
-    -fx-padding: 8 12 8 12;
-    -fx-font-family: "Arial Black", sans-serif;
+    -fx-border-color: #3B82F6;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #0A0A0A;
+    -fx-font-size: 16px;
+    -fx-padding: 10 14 10 14;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-weight: 600;
 }
 
 .hbox {

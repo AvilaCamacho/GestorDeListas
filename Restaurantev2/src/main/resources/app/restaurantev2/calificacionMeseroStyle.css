@@ -1,31 +1,52 @@
 .calificacion-panel {
-    -fx-background-color: #f0f0f0;
+    -fx-background-color: #1E1E1E;
     -fx-padding: 25;
     -fx-border-radius: 12;
     -fx-background-radius: 12;
+    -fx-border-color: #2563EB;
+    -fx-border-width: 1.5px;
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.2), 10, 0.15, 0, 2);
 }
 
 .titulo-calificacion {
-    -fx-text-fill: #222;
+    -fx-text-fill: #FFFFFF;
     -fx-padding: 8 0 8 0;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-font-weight: 600;
 }
 
 .estrella-radio {
     -fx-font-size: 24px;
-    -fx-text-fill: #FFD700;
+    -fx-text-fill: #60A5FA;
     -fx-background-color: transparent;
 }
 
 .btn-enviar {
-    -fx-background-color: #4CAF50;
-    -fx-text-fill: white;
+    -fx-background-color: #2563EB;
+    -fx-text-fill: #FFFFFF;
     -fx-font-size: 14px;
     -fx-background-radius: 8;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.3), 6, 0.3, 0, 2);
+}
+
+.btn-enviar:hover {
+    -fx-background-color: #1D4ED8;
+    -fx-effect: dropshadow(gaussian, rgba(37, 99, 235, 0.5), 10, 0.4, 0, 3);
 }
 
 .btn-cancelar {
-    -fx-background-color: #f44336;
-    -fx-text-fill: white;
+    -fx-background-color: #EF4444;
+    -fx-text-fill: #FFFFFF;
     -fx-font-size: 14px;
     -fx-background-radius: 8;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(239, 68, 68, 0.3), 6, 0.3, 0, 2);
+}
+
+.btn-cancelar:hover {
+    -fx-background-color: #DC2626;
+    -fx-effect: dropshadow(gaussian, rgba(239, 68, 68, 0.5), 10, 0.4, 0, 3);
 }
